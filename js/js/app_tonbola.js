@@ -37,7 +37,7 @@ let winnersHaveWoman = false;
 
 while (nbrWinners < 3) {
 
-    let random = Math.floor(Math.random() * (10));
+
     let winner = listPlayers[random]; // objet de type player
 
     // je veux vérifier si le winner de la manche a pas déjà gagné
